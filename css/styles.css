@@ -361,6 +361,9 @@ h6 {
 .sec-four-li:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.sec-four-li:hover p {
   transform: translateY(0%);
 }
 
@@ -439,19 +442,12 @@ h6 {
 }
 
 .footer-p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
   color: #f4f4fd;
   max-width: 264px;
-  margin-bottom: 16px;
 }
 
 .footer-div-two {
   display: flex;
-  gap: 16px;
   flex-direction: column;
 }
 
